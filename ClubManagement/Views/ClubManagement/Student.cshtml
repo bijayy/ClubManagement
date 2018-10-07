@@ -1,0 +1,17 @@
+﻿@model ClubManagement.Models.Person
+
+@{
+    ViewBag.Title = "Student";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Student Details</h2>
+
+<div>
+    <div>Person Id: @Model.PersonId</div>
+    <div>Person First Name: @Model.FirstName</div>
+    <div>Person Last Name: @Model.LastName</div>
+    <div>Person Email: @Model.Email</div>
+    <div>Person Date: @Model.RegistrationDate</div>
+</div>
+
